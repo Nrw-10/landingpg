@@ -1,0 +1,123 @@
+html,
+body{
+     height: 100%;
+     font-size: 1rem;
+     font-family: 'IBM Plex Serif', serif;
+     font-family: 'Lora', serif;
+     font-family: 'Playfair Display', serif;
+     font-family: 'Source Serif Pro', serif;
+     font-family: 'Spectral', serif;
+    }
+
+
+
+ .gradient{
+    background: rgb(238,70,144);
+    background: linear-gradient(90deg,
+     rgba(238,70,144,1) 0%,
+      rgba(195,79,204,1) 39%,
+       rgba(79,157,249,1) 100%
+       );
+}
+
+.page-header {
+    margin-top:  4rem;
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+
+
+.feature {
+  color: #fff;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  border-radius: 5%;
+}
+
+.services {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+    position: relative;
+    
+}
+
+  .Gallery img {
+    opacity: 1;
+    width: auto;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #28c98eb4;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+  
